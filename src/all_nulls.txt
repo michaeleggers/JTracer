@@ -1,0 +1,39 @@
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Point.java:40:		assert obj != null:"Point class: tried to invoke equals with null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Point.java:58:		assert point != null:"Point class: tried to invoke equals with null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Point.java:69:		assert vector != null:"Point class: tried to invoke equals with null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Ray.java:30:	  assert rayPoint != null:"Ray class: tried to invoke Ctor with null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Ray.java:31:	  assert rayVector != null:"Ray class: tried to invoke Ctor with null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Ray.java:60:		assert obj != null: "Ray class: tried to invoke equals with null";
+
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/ThreeTuple.java:57:		assert geom != null:"ThreeTuple ABC: Tried to invoke method with null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:73:   * @exception IllegalArgumentException if this is null vector.
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:78:      throw new IllegalArgumentException("cannot normalize null-vector!");
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:90:  public double dotProduct(final Vector vector) throws NullPointerException{
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:91:	assert vector != null: "null vector is not possible!";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:101:  public Vector crossProduct(final Vector vector) throws NullPointerException{
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:102:	assert vector != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/geometry/Vector.java:126:	assert vector != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/image/Image.java:32:			assert argument != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/image/PGMOut.java:32:	 * @exception NullPointerException if intArray has no values.
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/image/PGMOut.java:36:		assert pixelRaster != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/image/PGMOut.java:63:	public void save(final Raster pixelRaster)throws NullPointerException{
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/image/PGMOut.java:64:		assert pixelRaster != null: "shuld not be null";
+
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/image/PNGFile.java:67:    	assert raster != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/raster/ArrayRasterLive.java:86:		g2d.drawImage(canvas, null, null);
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/raster/Raster.java:58:			assert argument != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/Looker.java:46:	  assert cameraPosition != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/Looker.java:47:	  assert viewportCenter != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Intersection.java:39:	  assert intersectionPoint != null: "shuld not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Intersection.java:40:	  assert intersectionObject != null: "shuld not be null";
+
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Plane.java:36:	  assert planePoint != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Plane.java:37:	  assert planeNormalVector != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Plane.java:88:	  assert point != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Plane.java:104:  private boolean planeContainsPlane(final Plane plane)throws NullPointerException{
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Plane.java:105:	  assert plane != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Plane.java:123:	  assert ray != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Sphere.java:38:	  assert sphereCenter != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/primitive/Sphere.java:82:	  assert ray != null:"should not be null";
+edu/hm/jeyachaneggers/ss2015/se2/praktikum/lab05/scene/Scene.java:53:			assert argument != null:"should not be null";
+

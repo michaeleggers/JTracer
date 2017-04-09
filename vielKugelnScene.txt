@@ -1,0 +1,28 @@
+looker 0 0 5 0 0 0 12 12
+light 0 0 2
+
+sphere 0 2 -5 2
+diffuse 0
+ambient 0
+specular 1 60
+reflexion 1
+
+sphere 0 -2 -5 2
+diffuse 0
+ambient 0
+specular 1 60
+reflexion 1
+
+sphere 4 0 -5 2
+diffuse 0
+ambient 0
+specular 1 60
+reflexion 1
+
+sphere -4 0 -5 2
+diffuse 0
+ambient 0
+specular 1 60
+reflexion 1
+
+plane [0 -10 0] <0 1 0>
